@@ -19,7 +19,6 @@ def main():
     superhero_file_path = '../data/SuperHero.json'
     superhero_data = read_superhero_data(superhero_file_path)
 
-    # Add new superheroes
     new_superheroes = [
         {
             "name": "New Hero 1",
@@ -37,10 +36,8 @@ def main():
 
     add_superheroes(superhero_data, new_superheroes)
 
-    # Sort superheroes by age
     sort_superheroes_by_age(superhero_data)
 
-    # Save the updated superhero data to a new file
     new_superhero_file_path = '../data/superhero_new.json'
     save_superhero_data(new_superhero_file_path, superhero_data)
 
