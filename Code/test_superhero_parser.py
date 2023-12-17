@@ -1,7 +1,6 @@
 from Code import superhero_parser
 
 def test_sort_superheroes_by_age():
-    # Test case with provided data
     test_data = {
         "members": [
             {"name": "Hero1", "age": 30},
